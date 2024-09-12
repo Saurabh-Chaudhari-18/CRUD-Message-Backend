@@ -8,7 +8,7 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000", // Update with your frontend URL during development
+    origin: "*", // Update with your frontend URL during development
     credentials: true,
   })
 );
